@@ -1,9 +1,12 @@
 //Dependencies: 
 //yarn add express cors twilio 
 
+// Express back end - when started off
+
 const express = require('express'); 
 const cors = require('cors');
 const twilio = require('twilio'); 
+
 
 //twilio requirements -- Texting API 
 const accountSid = '___YOUR___ACCOUNT__SID';
@@ -25,7 +28,7 @@ app.get('/send-text', (req, res) => {
     res.send('Hello to the Twilio Server')
 
     //_GET Variables
-    const { recipient, textmessage } = req.query;
+    const { recipient, textmessage, cloudScheduler } = req.query;
 
 
     //Send Text
