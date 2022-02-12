@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@google-cloud/scheduler": "^1.1.2",
-    "ajv": "^6.9.1",
+    "ajv": "^6.12.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
     "http2": "^3.3.7",
