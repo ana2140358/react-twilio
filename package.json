@@ -6,7 +6,7 @@
     "@google-cloud/scheduler": "^1.1.2",
     "ajv": "^6.9.1",
     "cors": "^2.8.4",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "http2": "^3.3.7",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
